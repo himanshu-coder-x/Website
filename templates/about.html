@@ -1,0 +1,126 @@
+<!-- about.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- header.html -->
+<div class="bg-white py-4">
+    <div class="container mx-auto px-4 mt-4">
+        <div class="flex justify-center items-center">
+            <img src="../static/images/slide4.png" alt="Ice Cream" class="w-full h-screen rounded-lg shadow-md">
+            <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+                <h2 class="text-7xl font-bold text-white">About Us</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="bg-white py-20">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
+            Meet Our Team
+        </h2>
+        <div class="flex flex-wrap justify-center -mx-4">
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="https://picsum.photos/200/300" alt="John Doe" class="rounded-full mx-auto w-24 h-24 mb-4">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">
+                        John Doe
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Founder & CEO
+                    </p>
+                    <p class="text-gray-600">
+                        John is the founder and CEO of Sweet Treats Ice Cream. He's passionate about creating unique and
+                        delicious flavors that bring joy to our customers.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="https://picsum.photos/200/301" alt="Jane Smith"
+                        class="rounded-full mx-auto w-24 h-24 mb-4">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">
+                        Jane Smith
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Head of Operations
+                    </p>
+                    <p class="text-gray-600">
+                        Jane is our head of operations, ensuring that every scoop of ice cream is made with love and
+                        care. She's a perfectionist and always strives for excellence.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <img src="https://picsum.photos/200/302" alt="Bob Johnson"
+                        class="rounded-full mx-auto w-24 h-24 mb-4">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">
+                        Bob Johnson
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Head of Marketing
+                    </p>
+                    <p class="text-gray-600">
+                        Bob is our head of marketing, responsible for spreading the word about Sweet Treats Ice Cream.
+                        He's a creative genius and always comes up with innovative ideas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white py-20">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
+            Our Story
+        </h2>
+        <p class="text-lg text-gray-600 mb-4">
+            Sweet Treats Ice Cream was founded in 2010 by John Doe, a passionate ice cream lover who wanted to bring unique and delicious flavors to the community. With the help of his team, John has grown the business into a beloved brand that is known for its high-quality ice cream and exceptional customer service.
+        </p>
+        <p class="text-lg text-gray-600 mb-4">
+            Our mission is to provide the best ice cream experience possible, while also giving back to the community. We believe that ice cream has the power to bring people together and make them happy, and we strive to make that happen every day.
+        </p>
+    </div>
+</section>
+<section class="bg-white py-20">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
+            Our Statistics
+        </h2>
+        <div class="flex flex-wrap justify-center -mx-4">
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">
+                        10,000+
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Happy Customers
+                    </p>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">
+                        50+
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Working Members
+                    </p>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/3 xl:w-1/4 p-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">
+                        4.9/5
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        Average Review Rating
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
